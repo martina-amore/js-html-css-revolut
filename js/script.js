@@ -1,3 +1,4 @@
-$(".aiuto").click(function(){
-    $(".internal-box").toggleClass("block");
+$(".dropdown-link a").click(function(){
+    $(".dropdown-menu").toggleClass("active");
+    $(this).parent().siblings().children().removeClass("active");
 })
